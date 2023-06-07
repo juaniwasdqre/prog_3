@@ -1,6 +1,8 @@
 package tp1;
 
 //import tp1.DoublyLinkedList.DoubleLinkedList;
+import tp1.DoublyLinkedList.DoublyLinkedList;
+import tp1.DoublyLinkedList.DoublyLinkedListIterator;
 import tp1.LinkedList.LinkedList;
 
 public class Main {
@@ -25,5 +27,8 @@ public class Main {
         System.out.println(list1);
         System.out.println(list1.size);
 
+        DoublyLinkedList<Integer> l1 = new DoublyLinkedList<>();
+        l1.add(1);
+        System.out.println(l1);
     }
 }
